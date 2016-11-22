@@ -5,6 +5,7 @@ public class Book extends Item {
 	int ISBN;
 	String author;
 	String title;
+	String anotherTitle
 	
 	public Book(bookBuilder builder)
 	{
@@ -16,6 +17,7 @@ public class Book extends Item {
 		this.country = builder.country;
 		this.onLoan = builder.onLoan;
 		this.loaneeID = builder.loaneeID;
+		
 
 	}
 	
